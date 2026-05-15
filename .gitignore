@@ -1,0 +1,30 @@
+# Rust cargo
+/target/
+/.cargo/
+
+# Rust build artifacts
+*.rlib
+*.so
+*.dylib
+*.dll
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Local config
+config.local.toml
